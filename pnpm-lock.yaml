@@ -511,7 +511,7 @@ importers:
       '@hapi/accept': 5.0.2
       '@jest/transform': 29.5.0
       '@jest/types': 29.5.0
-      '@napi-rs/cli': 2.14.7
+      '@napi-rs/cli': 2.16.1
       '@napi-rs/triples': 1.1.0
       '@next/env': 13.4.8-canary.11
       '@next/polyfill-module': 13.4.8-canary.11
@@ -734,7 +734,7 @@ importers:
       '@hapi/accept': 5.0.2
       '@jest/transform': 29.5.0
       '@jest/types': 29.5.0
-      '@napi-rs/cli': 2.14.7
+      '@napi-rs/cli': 2.16.1
       '@napi-rs/triples': 1.1.0
       '@next/polyfill-module': link:../next-polyfill-module
       '@next/polyfill-nomodule': link:../next-polyfill-nomodule
@@ -6170,6 +6170,12 @@ packages:
 
   /@napi-rs/cli/2.14.7:
     resolution: {integrity: sha512-H+YCgdbBNMWn8c878C3RsRYcMxamWI7rB0H+1TqOy9n6u31isikcRyW1VDyoNHp7ApfmzV0+tpPopVi0W7WHAA==}
+    engines: {node: '>= 10'}
+    hasBin: true
+    dev: true
+
+  /@napi-rs/cli/2.16.1:
+    resolution: {integrity: sha512-L0Gr5iEQIDEbvWdDr1HUaBOxBSHL1VZhWSk1oryawoT8qJIY+KGfLFelU+Qma64ivCPbxYpkfPoKYVG3rcoGIA==}
     engines: {node: '>= 10'}
     hasBin: true
     dev: true

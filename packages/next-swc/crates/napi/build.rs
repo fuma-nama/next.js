@@ -23,6 +23,8 @@ fn main() {
     )
     .expect("Failed to write target triple text");
 
+    println!("=========================================== boo {:#?}", env::var("TARGET").expect("Target should be specified"));
+
     // Emit current package.json's version field into a text file to create static
     // const in util.rs This is being used to set correct release version for
     // the sentry's crash reporter.
