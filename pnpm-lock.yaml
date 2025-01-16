@@ -1696,6 +1696,9 @@ importers:
       react-dom:
         specifier: 19.1.0-canary-b158439a-20250115
         version: 19.1.0-canary-b158439a-20250115(react@19.1.0-canary-b158439a-20250115)
+      zod:
+        specifier: 3.24.1
+        version: 3.24.1
     devDependencies:
       '@types/mdx':
         specifier: ^2.0.13
