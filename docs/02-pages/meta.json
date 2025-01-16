@@ -5,8 +5,9 @@
   "root": true,
   "pages": [
     "index",
+    "01-getting-started",
     "---Building Your Application---",
-    "...01-building-your-application",
+    "...02-building-your-application",
     "---Others---",
     "..."
   ]
