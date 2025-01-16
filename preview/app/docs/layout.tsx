@@ -34,7 +34,15 @@ export default function Layout({ children }: { children: ReactNode }) {
                   ),
                 }
               }
-              return option
+
+              return {
+                ...option,
+                icon: (
+                  <span className="border border-fd-primary/50 bg-gradient-to-t from-fd-primary/50 rounded-lg p-1 text-fd-primary">
+                    {option.icon}
+                  </span>
+                ),
+              }
             },
           },
         }}
