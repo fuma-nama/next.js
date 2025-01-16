@@ -1,0 +1,14 @@
+{
+  "title": "Pages Router",
+  "icon": "BookOpen",
+  "description": "Features available at /pages",
+  "root": true,
+  "pages": [
+    "index",
+    "01-getting-started",
+    "---Building Your Application---",
+    "...02-building-your-application",
+    "---Others---",
+    "..."
+  ]
+}

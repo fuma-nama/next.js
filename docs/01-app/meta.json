@@ -1,0 +1,14 @@
+{
+  "title": "App Router",
+  "description": "Features available in /app",
+  "icon": "Box",
+  "pages": [
+    "index",
+    "01-getting-started",
+    "---Building Your Application---",
+    "...03-building-your-application",
+    "---Others---",
+    "..."
+  ],
+  "root": true
+}
